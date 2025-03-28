@@ -78,5 +78,5 @@ Service (배포)
 - **React 프론트엔드와 Spring Boot 백엔드**를 분리 개발 및 Docker + Render로 각각 배포했습니다.
 
 ![_- visual selection (3) (1)](https://github.com/user-attachments/assets/d9c1fd87-97ea-4220-971f-9478d558ab31)
-![Uploading ChatGPT Image 2025년 3월 28일 오후 04_13_27 (1).png…]()
+![ChatGPT Image 2025년 3월 28일 오후 04_13_27 (1)](https://github.com/user-attachments/assets/31e472c0-b052-490d-af3a-aa7482b6de36)
 
