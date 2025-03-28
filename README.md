@@ -23,9 +23,7 @@
 
 ### **PETTY – 반려동물 동반 여행지 & 숙소 & 음식점 추천 웹서비스**
 
-GitHub (코드)
-
-Service (배포)
+**[GitHub (코드)](https://github.com/LimPark996/PETTY) | [Service (배포)](quantumguinea.github.io/FE-BASE/)**
 
 *JavaScript, HTML, CSS, KakaoMap API, Gemini API, Supabase, GitHub Pages*
 
@@ -39,13 +37,13 @@ Service (배포)
 ![_- visual selection (4)](https://github.com/user-attachments/assets/0b2d05d9-bc8e-4cb6-8727-b68f8385d21c)
 ![ChatGPT Image 2025년 3월 28일 오후 03_21_52 (1)](https://github.com/user-attachments/assets/fa4326b9-d8fe-40d7-9590-d436a8da0234)
 
+
 ---
+
 
 ### **AIStockGuide** – AI 기반 해외 주식 투자 가이드 웹 애플리케이션
 
-GitHub (코드)
-
-Service (배포)
+**[GitHub (코드)](https://github.com/LimPark996/Investment-Helper) | [Service (배포)](https://investment-guides.onrender.com)**
 
 *Java, JSP/Servlet, OpenAI API, Youtube API, Docker, Render*
 
@@ -59,14 +57,17 @@ Service (배포)
 ![_- visual selection (2) (1)](https://github.com/user-attachments/assets/fdc220af-3587-4bc2-8c50-4aed4f496789)
 ![ChatGPT Image 2025년 3월 28일 오후 03_31_01 (1)](https://github.com/user-attachments/assets/c77c46f5-d7f3-4470-8ad0-78b21eccf87c)
 
+
 ---
+
 
 ### **FixBot – 증상 기반 전자제품 고장 진단 챗봇**
 
-GitHub (코드)
-프론트엔드 | 백엔드
+**GitHub (코드)**
 
-Service (배포)
+**[프론트엔드](https://github.com/LimPark996/FixBot-FrontEnd) | [백엔드](https://github.com/LimPark996/FixBot-BackEnd)**
+
+**[Service (배포)](https://fixbot-backend.onrender.com)**
 
 *React, Java Spring Boot, OpenAI API,* YouTube·Google API, Gemini API, Supabase, *Docker, Render*
 
