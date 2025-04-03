@@ -38,7 +38,7 @@
 
 *issues!*
 
-- SupaBase 연동 GitHub 계정 소멸 > 계정 재생성 및 복구 중
+- SupaBase 연동 GitHub 계정 소멸 > 계정 재생성 및 일부 복구 중 (로그인, 커뮤니티 기능)
 ![_- visual selection (11)](https://github.com/user-attachments/assets/07e38214-a424-422d-b21d-31523ca6309f)
 ![ChatGPT Image 2025년 3월 28일 오후 03_21_52 (1)](https://github.com/user-attachments/assets/fa4326b9-d8fe-40d7-9590-d436a8da0234)
 ---
