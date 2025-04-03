@@ -1,31 +1,67 @@
-> 기술은 도구일 뿐, 결국 중요한 건 사람이라고 믿습니다.
-> 
-> 코드 한 줄도 “왜”를 설명할 수 있는 개발자이자,
->
-> 분석 설계의 구조와 방향을 함께 고민하는 데이터 사이언티스트를 지향합니다.
-> 
-> 팀원들의 의견을 최대한 반영하고, 팀의 속도에 발맞추는 협업을 좋아합니다.
-> 
-> 완벽하지 않아도, 항상 더 나아지려는 방향을 선택합니다.
-> 
+## About Me
 
+> 빠르게 실행하면서도, 왜 이걸 해야 하는지 항상 고민합니다.
+> 
+> 실행력과 목적성 사이의 균형을 중요하게 생각하며 일합니다.
+
+<h5>✨ 장점: 빠르게 실행하고 끝까지 밀어붙이는 힘</h5>
+
+<sup>이전 직장에서 ALP 구조 정리 업무를 맡았을 때, 처음 보는 서비스 구조와 코드였습니다.</sup><br>
+<sup>하지만 흐름을 빠르게 파악하고 문서화 작업에 착수했습니다.</sup><br>
+<sup>기존 문서와 코드 흐름을 참고해 API 호출 방식, 규칙 기반 로직, 화면 흐름 등을 정리했습니다.</sup><br>
+<sup>또한, 여러 자료를 하나의 실무 문서로 통합했습니다.</sup><br>
+<sup>특히 주간 리포트 생성 흐름은 Java 소스를 따라가며 전반적인 구조를 정리했습니다.</sup><br>
+<sup>이를 실무 참고용 자료로 정리해 팀에 공유했습니다.</sup>
+
+<h5>✨ 보완점: ‘왜 이걸 해야 하는가’를 먼저 물어야 한다는 것</h5>
+
+<sup>스마트올 플랫폼 구조를 익히던 초기에, Confluence 문서만 믿고 분석 계획을 수립했다가</sup><br>
+<sup>사수에게 “직접 확인된 정보인지?”, “이 행동이 목적에 부합하는지?”에 대한 의문을 들었습니다.</sup><br>
+<sup>그 일을 계기로, 실행 전에 **맥락과 전제**를 먼저 점검하는 습관을 들이려 하고 있습니다.</sup><br>
+
+<sup>비슷한 고민은 개인 사이드 프로젝트(FixBot)에서도 있었습니다.</sup><br>
+<sup>처음엔 생성형 AI가 사용자 질문에 직접 답변하는 구조를 구상했지만,</sup><br>
+<sup>수리 매뉴얼 등의 외부 콘텐츠를 사용할 경우 **저작권 문제가 생길 수 있다는 점**을 인지했고,</sup><br>
+<sup>기능을 고집하지 않고 검색 기반 구조로 방향을 전환했습니다.</sup>
+
+---
 ## Skill
 
-- **백엔드**: Spring Boot, Spring MVC, Servlet, Session 기반 인증
-- **프론트엔드**: React, HTML, CSS, Javascript
-- **데이터베이스**: Supabase, RDB 개념 (SQLD 보유)
-- **데브옵스:** Docker, Render, GitHub Actions, CI/CD
-- **언어:** Java 17, Maven
-- **ETC:** JSP, MVC 구조 이해 및 구현
+#### 💻 Backend
+- Java 17, Maven  
+- Spring Boot, Spring MVC, Servlet  
+- JSP, MVC 구조 이해 및 구현  
+- Session 기반 인증 구현
+
+#### 🖥️ Frontend
+- React  
+- HTML, CSS, JavaScript  
+
+#### 🗄️ Database
+- Supabase  
+- 관계형 데이터베이스 개념 이해 (SQLD 보유)  
+
+#### ⚙️ DevOps / Deployment
+- Docker, Render  
+- GitHub Actions, CI/CD  
+
+#### 📊 Data Analysis & ML
+- Python, R  
+- pandas, scikit-learn, matplotlib, seaborn  
+
+#### 📚 Collaboration Tools
+- Jira, Confluence, Notion  
+- GitHub 기반 협업 경험 다수
+
 
 ---
 ## History
 
-### 🧩 Development Projects
+#### Development Projects
 
 **PETTY – 반려동물 동반 여행지 & 숙소 & 음식점 추천 웹서비스**
 
-**[GitHub (코드)](https://github.com/LimPark996/PETTY) | [Service (배포)](quantumguinea.github.io/FE-BASE/)**
+[GitHub (코드)](https://github.com/LimPark996/PETTY) | [Service (배포)](quantumguinea.github.io/FE-BASE/)
 
 *JavaScript, HTML, CSS, KakaoMap API, Gemini API, Supabase, GitHub Pages*
 
@@ -45,7 +81,7 @@
 
 **AIStockGuide – AI 기반 해외 주식 투자 가이드 웹 애플리케이션**
 
-**[GitHub (코드)](https://github.com/LimPark996/Investment-Helper) | [Service (배포)](https://investment-guides.onrender.com)**
+[GitHub (코드)](https://github.com/LimPark996/Investment-Helper) | [Service (배포)](https://investment-guides.onrender.com)
 
 *Java, JSP/Servlet, OpenAI API, Youtube API, Docker, Render*
 
@@ -61,9 +97,9 @@
 
 **FixBot – 증상 기반 전자제품 고장 진단 챗봇**
 
-**[프론트엔드](https://github.com/LimPark996/FixBot-FrontEnd) | [백엔드](https://github.com/LimPark996/FixBot-BackEnd)**
+[프론트엔드](https://github.com/LimPark996/FixBot-FrontEnd) | [백엔드](https://github.com/LimPark996/FixBot-BackEnd)
 
-**[Service (배포)](https://fixbot-backend.onrender.com)**
+[Service (배포)](https://fixbot-backend.onrender.com)
 
 *React, Java Spring Boot, OpenAI API, YouTube·Google API, Gemini API, Supabase, Docker, Render*
 
@@ -77,9 +113,9 @@
 ![ChatGPT Image 2025년 3월 28일 오후 04_13_27 (1)](https://github.com/user-attachments/assets/31e472c0-b052-490d-af3a-aa7482b6de36)
 ---
 
-### 📊 Data Analysis Projects at Woongjin Thinkbig
+#### Data Analysis Projects at Woongjin Thinkbig
 
-**📊 도서지수 기반 A/B 테스트 실험 기획 | 2024.10 ~ 2024.12**
+**도서지수 기반 A/B 테스트 실험 기획 | 2024.10 ~ 2024.12**
 
 - **AI 기반 콘텐츠 추천 화면에서 도서지수의 효과를 검증하기 위한 A/B 테스트 실험을 기획**
 - 실험 대상 섹션(S07, S08) 정의, 실험군·대조군 구성, 도서 난이도 구간(쉬움/적정/어려움) 수립, 지표(완독률, 적정 열람률) 정의 등을 직접 수행
@@ -89,7 +125,7 @@
 ![_- visual selection (5)](https://github.com/user-attachments/assets/ca2dfac5-f5c3-4214-bbea-49a3db698578)
 ---
 
-**🧠 문항 난이도 예측 회귀 모델 MVP 설계 | 2024.04 ~ 2024.09**
+**문항 난이도 예측 회귀 모델 MVP 설계 | 2024.04 ~ 2024.09**
 
 - **지문·문항 메타 데이터를 활용해 학년군 회귀 모델(MVP)을 기획하고 모델링 전 과정을 수행**
 - 기존 정답률 기반 지표의 설명력 부족 문제를 보완하기 위해, 학습 이력·문항 메타·지문 특성을 반영한 해석 가능한 모델을 설계
@@ -99,7 +135,8 @@
 - 실험 설계와 지표 정의 기준은 팀장 및 사수와 함께 조율하고, 결과는 주 1회 공유하며 피드백을 반영
 ![_- visual selection (10)](https://github.com/user-attachments/assets/45c661ff-5d3c-4a50-9fa3-753e086b8fb4)
 ---
-**🔍 ALP 모델 분석 및 경량화 기초 설계 | 2023.12 ~ 2024.05**
+
+**ALP 모델 분석 및 경량화 기초 설계 | 2023.12 ~ 2024.05**
 
 - **ALP(Adaptive Learning Platform) 기반 서비스·로직·지표 구조를 분석하고, 고도화 논의의 기반이 될 수 있도록 내부 문서를 재정리**
 - 기존에도 구조도와 문서화 자료는 있었으나 정리 방식이 복잡해, 실무 적용과 내부 이해에 어려움이 있었음
