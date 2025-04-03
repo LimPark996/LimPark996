@@ -18,65 +18,92 @@
 - **언어:** Java 17, Maven
 - **ETC:** JSP, MVC 구조 이해 및 구현
 
+---
 ## History
 
-### **PETTY – 반려동물 동반 여행지 & 숙소 & 음식점 추천 웹서비스**
+### 🧩 Development Projects
+
+**PETTY – 반려동물 동반 여행지 & 숙소 & 음식점 추천 웹서비스**
 
 **[GitHub (코드)](https://github.com/LimPark996/PETTY) | [Service (배포)](quantumguinea.github.io/FE-BASE/)**
 
 *JavaScript, HTML, CSS, KakaoMap API, Gemini API, Supabase, GitHub Pages*
 
-- 부트캠프 팀 프로젝트로, **반려동물과 함께 여행할 수 있는 장소를 추천해주는 웹 서비스**입니다.
-- LLM + RAG 기반의 사용자 입력 분석을 통해 **맞춤형 장소를** 추천하는 기능을 구현했습니다.
-- 반려동물 사진을 분석해 **특성 리포트(“WoW Moment”)를 제공**하였습니다.
-- **집사 커뮤니티** 기능을 통해 반려동물 관련 정보를 자유롭게 작성하고 공유할 수 있도록 했습니다.
-- 로그인 및 회원가입 기능을 구현해 **개인화된 서비스 경험**을 제공합니다.
-- **GitHub Pages를 통한 배포**를 진행했습니다.
+- 부트캠프 팀 프로젝트로, **반려동물과 함께 여행할 수 있는 장소를 추천해주는 웹 서비스**
+- LLM + RAG 기반의 사용자 입력 분석을 통해 맞춤형 장소를 추천하는 기능 구현
+- 반려동물 사진을 분석해 우리집 반려동물 특성 리포트(“WoW Moment”) 제공
+- 집사 커뮤니티 기능을 통해 반려동물 관련 정보를 자유롭게 작성하고 공유할 수 있음
+- 로그인 및 회원가입 기능을 구현해 개인화된 서비스 경험 제공
+- GitHub Pages를 통한 배포 진행
 
-![_- visual selection (4)](https://github.com/user-attachments/assets/0b2d05d9-bc8e-4cb6-8727-b68f8385d21c)
+*issues!*
+
+- SupaBase 연동 GitHub 계정 소멸 > 계정 재생성 및 복구 중
+![_- visual selection (11)](https://github.com/user-attachments/assets/07e38214-a424-422d-b21d-31523ca6309f)
 ![ChatGPT Image 2025년 3월 28일 오후 03_21_52 (1)](https://github.com/user-attachments/assets/fa4326b9-d8fe-40d7-9590-d436a8da0234)
-
-
 ---
 
-
-### **AIStockGuide** – AI 기반 해외 주식 투자 가이드 웹 애플리케이션
+**AIStockGuide – AI 기반 해외 주식 투자 가이드 웹 애플리케이션**
 
 **[GitHub (코드)](https://github.com/LimPark996/Investment-Helper) | [Service (배포)](https://investment-guides.onrender.com)**
 
 *Java, JSP/Servlet, OpenAI API, Youtube API, Docker, Render*
 
-- 사용자 질문을 분석해 해외 주식 투자 정보를 제공하는 웹 애플리케이션을 개발했습니다.
-- Java 기반 백엔드와 JSP/Servlet을 활용해 서버 사이드 렌더링을 구현했습니다.
-- OpenAI API를 연동하여 **AI 기반 투자 상담 기능**을 개발했습니다.
-- Supabase를 사용해 **투자 FAQ 및 유튜브 영상 데이터를 관리**하고, 이를 랜덤 노출 기능과 함께 구현했습니다.
-- SNS 공유 시 자동으로 미리보기 카드가 생성되도록 **오픈 그래프(OGTAG)** 기능을 구현했습니다.
-- Docker 및 Render를 이용해 **배포 환경을 구성**하고, 실제 운영 가능한 형태로 서비스를 완성했습니다.
-
-![_- visual selection (2) (1)](https://github.com/user-attachments/assets/fdc220af-3587-4bc2-8c50-4aed4f496789)
+- 사용자 질문을 분석해 해외 주식 투자 정보를 제공하는 웹 애플리케이션 개발
+- Java 기반 백엔드와 JSP/Servlet을 활용해 서버 사이드 렌더링 구현
+- OpenAI API를 연동하여 **AI 기반 투자 상담 기능** 개발
+- Supabase를 사용해 투자 FAQ 및 유튜브 영상 데이터 관리, 랜덤 노출 기능과 함께 구현
+- SNS 공유 시 자동으로 미리보기 카드가 생성되도록 오픈 그래프(OGTAG) 기능 구현
+- Docker 및 Render를 이용해 배포 환경 구성, 실제 운영 가능한 형태로 서비스 완성
+![_- visual selection (12)](https://github.com/user-attachments/assets/5e88576f-62dc-4e44-aaa9-77bfeafb0fba)
 ![ChatGPT Image 2025년 3월 28일 오후 03_31_01 (1)](https://github.com/user-attachments/assets/c77c46f5-d7f3-4470-8ad0-78b21eccf87c)
-
-
 ---
 
-
-### **FixBot – 증상 기반 전자제품 고장 진단 챗봇**
-
-**GitHub (코드)**
+**FixBot – 증상 기반 전자제품 고장 진단 챗봇**
 
 **[프론트엔드](https://github.com/LimPark996/FixBot-FrontEnd) | [백엔드](https://github.com/LimPark996/FixBot-BackEnd)**
 
 **[Service (배포)](https://fixbot-backend.onrender.com)**
 
-*React, Java Spring Boot, OpenAI API,* YouTube·Google API, Gemini API, Supabase, *Docker, Render*
+*React, Java Spring Boot, OpenAI API, YouTube·Google API, Gemini API, Supabase, Docker, Render*
 
-- **자연어 입력 기반 전자제품 고장 진단 및 해결책을 제시하는 AI 챗봇 서비스**입니다.
-- OpenAI API를 활용해 질문을 분석하고, **검색어를 자동 생성**합니다.
-- 이후, YouTube·Google API로 관련 콘텐츠를 추천합니다.
-- **필요 시 AI가 직접 해결책을 생성**하고, 대화 흐름에 따라 단계적으로 증상을 좁혀갑니다.
-- Supabase + Vision API(Gemini)를 연동해 **이미지 기반 고장 원인 추정 기능**도 구현했습니다.
-- **React 프론트엔드와 Spring Boot 백엔드**를 분리 개발 및 Docker + Render로 각각 배포했습니다.
-
-![_- visual selection (3) (1)](https://github.com/user-attachments/assets/d9c1fd87-97ea-4220-971f-9478d558ab31)
+- **자연어 입력 기반 전자제품 고장 진단 및 해결책을 제시하는 AI 챗봇 서비스**
+- OpenAI API를 활용해 질문 분석, 검색어 자동 생성
+- 이후, YouTube·Google API로 관련 콘텐츠 추천
+- 필요 시 AI가 직접 해결책을 생성, 대화 흐름에 따라 단계적으로 증상 좁혀감
+- Supabase + Vision API(Gemini)를 연동해 이미지 기반 고장 원인 추정 기능 구현
+- React 프론트엔드와 Spring Boot 백엔드를 분리 개발 및 Docker + Render로 배포
+![_- visual selection (14)](https://github.com/user-attachments/assets/5428de90-8499-49d5-8f72-91021a386f20)
 ![ChatGPT Image 2025년 3월 28일 오후 04_13_27 (1)](https://github.com/user-attachments/assets/31e472c0-b052-490d-af3a-aa7482b6de36)
+---
 
+### 📊 Data Analysis Projects at Woongjin Thinkbig
+
+**📊 도서지수 기반 A/B 테스트 실험 기획 | 2024.10 ~ 2024.12**
+
+- **AI 기반 콘텐츠 추천 화면을 대상으로 도서지수의 효과를 검증하기 위한 실험을 기획**
+- 실험 대상 섹션(S07, S08) 정의, 실험군·대조군 구성, 도서 난이도 구간(쉬움/적정/어려움) 수립, 지표(완독률, 적정 열람률) 정의 등을 직접 수행
+- SQL 기반 로그 데이터를 활용해 지표 산출 가능성을 사전 검토
+- 연령별 도서지수 분포가 유사해 실험 효과가 희석될 수 있다는 점, 고레벨 도서 부족으로 인한 노출 한계 등 현실적 제약을 분석
+- 실험의 타당성과 실행 가능성을 반복적으로 점검하고, 사수와 전략을 지속 조정
+![_- visual selection (5)](https://github.com/user-attachments/assets/ca2dfac5-f5c3-4214-bbea-49a3db698578)
+---
+
+**🧠 문항 난이도 예측 회귀 모델 MVP 설계 | 2024.04 ~ 2024.09**
+
+- **지문과 문항 메타데이터를 활용해 학년군 회귀 모델(MVP) 기획**
+- 기존 정답률 기반 지표의 설명력 한계를 보완하기 위해 지표 범위를 페이지 → 지문 단위로 조정하고, 추가 변수를 정의해 데이터셋을 확장
+- Python으로 문항 메타, 학습 이력, 지문 데이터를 정제·병합하고, CatBoost 회귀 모델을 구축
+- Stratified Split, 변수 중요도 분석, 예측값 해석 등을 통해 모델 구조를 점검하고, 해석 가능성과 실무 활용성에 중점
+- 팀장에게 주 1회 결과를 공유하며 피드백을 반영하고, 설계 기준을 반복적으로 조율함
+![_- visual selection (10)](https://github.com/user-attachments/assets/45c661ff-5d3c-4a50-9fa3-753e086b8fb4)
+---
+**🔍 ALP 모델 분석 및 경량화 기초 설계 | 2023.12 ~ 2024.05**
+
+- **ALP 기반 서비스 로직 및 지표 구조를 재정리하고, 고도화 논의의 기초 자료로 가공**
+- 기존에 존재하던 구조도와 문서가 있었지만, 정리 방식이 복잡해 실무 적용이 어려운 상태였음
+- JAVA 소스, R 스크립트, DB 테이블을 직접 열람하며 기존 로직과 기능 흐름을 검토하고, 핵심 연산 구조와 API 흐름을 정리함
+- Rules 기반 로직, 클러스터 레벨 지표의 활용 위치 등을 UI 구조와 연계해 문서화하고, 실제 화면 및 서비스 흐름에 맞게 재구성
+- 특히, ALP 기반 주간 학습 리포트 생성 과정을 JAVA 코드 수준에서 파악하고, 엑셀 기반 구조도로 정리해 팀내 공유
+- 상무 보고용 요약 자료로도 활용될 수 있도록 핵심 구조를 간결하게 정리하고, 팀 내 고도화 논의의 출발점으로 공유됨
+![_- visual selection (9)](https://github.com/user-attachments/assets/543d9d81-9df1-40a7-b2bc-0ad6b4581c18)
