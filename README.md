@@ -12,11 +12,11 @@
 
 ## Skill
 
-- **백엔드**: Spring Boot 3, Spring MVC, Servlet, Session 기반 인증
-- **프론트엔드**: React, HTML, CSS, Javascript (Vanilla)
+- **백엔드**: Spring Boot, Spring MVC, Servlet, Session 기반 인증
+- **프론트엔드**: React, HTML, CSS, Javascript
 - **데이터베이스**: Supabase, RDB 개념 (SQLD 보유)
 - **데브옵스:** Docker, Render, GitHub Actions, CI/CD
-- **언어:** Java 17, Maven, Gradle
+- **언어:** Java 17, Maven
 - **ETC:** JSP, MVC 구조 이해 및 구현
 
 ## History
