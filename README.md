@@ -107,4 +107,4 @@
 - 분석한 내용을 바탕으로, 기능별 흐름과 UI 구조를 연계해 실무에서 참고 가능한 형태로 문서화
 - 특히, ALP 기반 주간 학습 리포트 생성 과정을 JAVA 코드 단위에서 추적하고, 엑셀 기반 구조도로 재정리하여 팀장에게 공유
 - 최종적으로 로직, 지표 정의, 호출 흐름 등을 통합해 실무 적용 가능한 정리 자료를 구축하고, 상무 보고용 요약 자료로도 가공해 팀 내 공유
-![_- visual selection (9)](https://github.com/user-attachments/assets/543d9d81-9df1-40a7-b2bc-0ad6b4581c18)
+![_- visual selection (9)](https://github.com/user-attachments/assets/5f9dee42-7675-4b93-a45a-4bc34b44db9d)
