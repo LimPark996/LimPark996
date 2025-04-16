@@ -12,10 +12,8 @@
 - Java 17, Maven  
 - Spring Boot, Spring MVC, Servlet  
 - JSP, MVC 구조 이해 및 구현  
-- Session 기반 인증 구현
 
 #### 🖥️ Frontend
-- React  
 - HTML, CSS, JavaScript  
 
 #### 🗄️ Database
