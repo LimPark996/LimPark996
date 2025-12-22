@@ -128,8 +128,6 @@ motto: "복잡한 것을 단순하게, 어려운 것을 쉽게"
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%9C%A0%EB%AF%B8-%EB%B0%95-4a766828a/)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge)](https://huggingface.co/Yumi-Park996)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:byumm315@gmail.com)
-
 </div>
 
 ---
