@@ -77,6 +77,23 @@ motto: "복잡한 것을 단순하게, 어려운 것을 쉽게"
 - AI 리뷰 요약 기능 (OpenAI API)
 - GitHub Actions CI/CD 파이프라인
 
+[![Backend](https://img.shields.io/badge/Backend-181717?style=flat-square&logo=github)](https://github.com/LimPark996/Ticketing-Website_BE)
+[![Frontend](https://img.shields.io/badge/Frontend-181717?style=flat-square&logo=github)](https://github.com/LimPark996/Ticketing-Website_FE)
+[![Live](https://img.shields.io/badge/🌐_Live-ticklingticket.com-blue?style=flat-square)](https://ticklingticket.com/)
+
+---
+
+### 🔍 Term Search System
+> 지능형 하이브리드 용어 검색 시스템
+
+`Python` `FAISS` `ColBERT` `OpenAI API`
+
+- GPT 기반 쿼리 전처리 + FAISS/ColBERT 하이브리드 검색
+- FAISS 벡터 유사도 + ColBERT 토큰 매칭 결합
+- Circuit Breaker, Rate Limiting, Fallback 장애 대응
+
+[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/term-search-system-ver1)
+
 ---
 
 ### 🏠 Real Estate RAG Chatbot
@@ -85,7 +102,9 @@ motto: "복잡한 것을 단순하게, 어려운 것을 쉽게"
 `Python` `FAISS` `Streamlit` `OpenAI API`
 
 - PDF 텍스트/표/그래프 통합 처리
-- 하이브리드 검색 (Vector 60% + BM25 40%)
+- FAISS 벡터 검색 + BM25 키워드 검색 결합
+
+[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/cntchatbot_pjt1)
 
 ---
 
@@ -97,6 +116,7 @@ motto: "복잡한 것을 단순하게, 어려운 것을 쉽게"
 - LlamaGen VQGAN + Halton-MaskGIT 파이프라인
 - 6종 금속 결함 클래스 inpainting 데모
 
+[![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/metal-defect-synthesis)
 [![HuggingFace Space](https://img.shields.io/badge/🤗%20Demo-Live-yellow?style=flat-square)](https://huggingface.co/spaces/Yumi-Park996/metal-defect-synthesis)
 [![Checkpoints](https://img.shields.io/badge/🤗%20Model-Checkpoints-orange?style=flat-square)](https://huggingface.co/Yumi-Park996/metal-defect-checkpoints)
 
