@@ -79,7 +79,6 @@ motto: "복잡한 것을 단순하게, 어려운 것을 쉽게"
 
 [![Backend](https://img.shields.io/badge/Backend-181717?style=flat-square&logo=github)](https://github.com/LimPark996/Ticketing-Website_BE)
 [![Frontend](https://img.shields.io/badge/Frontend-181717?style=flat-square&logo=github)](https://github.com/LimPark996/Ticketing-Website_FE)
-[![Live](https://img.shields.io/badge/🌐_Live-ticklingticket.com-blue?style=flat-square)](https://ticklingticket.com/)
 
 ---
 
@@ -117,8 +116,6 @@ motto: "복잡한 것을 단순하게, 어려운 것을 쉽게"
 - 6종 금속 결함 클래스 inpainting 데모
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/metal-defect-synthesis)
-[![HuggingFace Space](https://img.shields.io/badge/🤗%20Demo-Live-yellow?style=flat-square)](https://huggingface.co/spaces/Yumi-Park996/metal-defect-synthesis)
-[![Checkpoints](https://img.shields.io/badge/🤗%20Model-Checkpoints-orange?style=flat-square)](https://huggingface.co/Yumi-Park996/metal-defect-checkpoints)
 
 ---
 
