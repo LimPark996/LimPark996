@@ -32,9 +32,9 @@ background:
 
 `InternVideo2` `FAISS` `ColBERT` `BM25` `Runway` `DINOv2` `C2PA` `Gradio`
 
-- 7,010개 MSR-VTT 영상 인덱싱 + 하이브리드 검색(BM25·Dense·WRRF 융합·ColBERT 리랭킹)
-- Scene Graph → 3경로 분기(USE_AS_IS / TRANSFORM / GENERATE) PD 워크스테이션
-- MSR-VTT 1k-A 벤치마크 평가 파이프라인 구축 중 (Dense R@1 논문 기준선 51.9 대조)
+- 7,010개 MSR-VTT 영상 인덱싱 + 하이브리드 검색(BM25·Dense·WRRF 융합·ColBERT·ITM 리랭킹)
+- MSR-VTT 1k-A 벤치마크: ITC dense 단독 R@1 3.5% → ITM 추가 후 **41.3%** (논문 공식 51.9%, 논문 대비 -10.6%p는 ITC collapse 미해결에 기인)
+- Scene Graph → 2경로 분기(USE_AS_IS / TRANSFORM) PD 워크스테이션
 - DINOv2 전환 효과 + DreamColour LUT 색보정 + C2PA ES256 출처 서명
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/VideoRAG-Public)
@@ -59,9 +59,12 @@ background:
 
 `VQGAN` `MaskGIT` `PyTorch` `HuggingFace` `Gradio`
 
-- LlamaGen VQGAN + Halton-MaskGIT (ICLR 2025) 파이프라인 설계
-- NEU-DET 등 3종 데이터셋 통합, 2,659장 → 8배 증강, VQGAN 파인튜닝 Edge IoU +10.6%
-- Weighted sampling으로 클래스 불균형 보정, Gradio inpainting 데모 배포
+- taming VQGAN + 직접 구현 MaskGIT(v1) → LlamaGen VQGAN + Halton-MaskGIT(v2) 아키텍처 전환
+  - 전환 이유: Halton-MaskGIT(ICLR 2025)은 LlamaGen VQGAN 전용 — Codebook 호환 문제로 taming과 조합 불가, 사전학습 모델이 있는 Halton-MaskGIT이 효율적이라고 판단
+- NEU-DET 등 3종 데이터셋 통합, 2,659장 → 8배 증강
+- VQGAN fine-tuning 정량 평가: Edge IoU +10.6%, PSNR +3.1%, SSIM +0.73%
+- MaskGIT 학습 Loss 6.77 (목표 ~4.0) → 수렴 실패 — 데이터 21K 대비 69M 파라미터 모델의 구조적 한계
+- Gradio inpainting 데모 배포 (HuggingFace Spaces)
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/metal-defect-synthesis)
 [![Demo](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=flat-square)](https://huggingface.co/Yumi-Park996)
