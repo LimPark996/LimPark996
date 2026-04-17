@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi,%20I'm%20Yumi%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6B8AF7&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer;RAG+%7C+Video+Retrieval+%7C+Data+Pipeline;%22%EB%B3%B5%EC%9E%A1%ED%95%9C+%EA%B2%83%EC%9D%84+%EC%9E%91%EB%8F%99%ED%95%98%EA%B2%8C+%EB%A7%8C%EB%93%A0%EB%8B%A4%22" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6B8AF7&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer;RAG+%7C+Video+Retrieval+%7C+Multimodal+AI;%22%EB%B3%B5%EC%9E%A1%ED%95%9C+%EA%B2%83%EC%9D%84+%EC%9E%91%EB%8F%99%ED%95%98%EA%B2%8C+%EB%A7%8C%EB%93%A0%EB%8B%A4%22" alt="Typing SVG" /></a>
 
 </div>
 
@@ -21,6 +21,7 @@ background:
   - Built Video RAG prototype for gov't R&D project (1st round pass)
   - ML modeling at EdTech company (Woongjin ThinkBig AI Labs)
   - Taught generative AI to non-developers at Samsung C&T AI Academy
+  - Wrote technical deep-dives on VQGAN, Transformer, BERT source code (byumm315.tistory.com)
 ```
 
 ---
@@ -142,6 +143,7 @@ background:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%9C%A0%EB%AF%B8-%EB%B0%95-4a766828a/)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge)](https://huggingface.co/Yumi-Park996)
+[![Blog](https://img.shields.io/badge/Tech%20Blog-FF5722?style=for-the-badge&logo=tistory&logoColor=white)](https://byumm315.tistory.com/)
 
 </div>
 
