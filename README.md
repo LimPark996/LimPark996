@@ -39,6 +39,7 @@ background:
 - DINOv2 transition scoring + DreamColour 3D LUT color grading + C2PA ES256 provenance signing
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/VideoRAG-Public)
+[![demo](https://img.shields.io/badge/github-demo-brightgreen)](https://limpark996.github.io/VideoRAG-Public/)
 
 ---
 
