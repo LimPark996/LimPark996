@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hi,%20I'm%20Yumi%20👋&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6B8AF7&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer;RAG+%7C+Video+Retrieval+%7C+Multimodal+AI;%22%EB%B3%B5%EC%9E%A1%ED%95%9C+%EA%B2%83%EC%9D%84+%EC%9E%91%EB%8F%99%ED%95%98%EA%B2%8C+%EB%A7%8C%EB%93%A0%EB%8B%A4%22" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6B8AF7&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer;RAG+%7C+Video+Retrieval+%7C+Multimodal+AI;%22Making+complex+things+work%22" alt="Typing SVG" /></a>
 
 </div>
 
@@ -29,43 +29,42 @@ background:
 ## Featured Projects
 
 ### VideoRAG — AI-Powered Video Retrieval & Synthesis
-> BM25 + InternVideo2 + ColBERT 하이브리드 검색 파이프라인. 정부 R&D 과제 1차 통과.
+> Hybrid retrieval pipeline combining BM25 + InternVideo2 + ColBERT. Selected for government R&D funding (1st round pass).
 
 `InternVideo2` `FAISS` `ColBERT` `BM25` `Runway` `DINOv2` `C2PA` `Gradio`
 
-- 7,010개 MSR-VTT 영상 인덱싱 + 하이브리드 검색(BM25·Dense·WRRF 융합·ColBERT·ITM 리랭킹)
-- MSR-VTT 1k-A 벤치마크: ITC dense 단독 R@1 3.5% → ITM 추가 후 **41.3%** (논문 공식 51.9%, 논문 대비 -10.6%p는 ITC collapse 미해결에 기인)
-- Scene Graph → 2경로 분기(USE_AS_IS / TRANSFORM) PD 워크스테이션
-- DINOv2 전환 효과 + DreamColour LUT 색보정 + C2PA ES256 출처 서명
+- Indexed 7,010 MSR-VTT videos with hybrid search: BM25 · Dense · WRRF fusion · ColBERT · ITM reranking
+- MSR-VTT 1k-A benchmark: ITC dense alone R@1 3.5% → **R@1 44.4%** after full ITM (paper: 51.9%; −10.6%p gap attributed to unresolved ITC collapse)
+- Scene Graph → 2-path routing (USE_AS_IS / TRANSFORM) PD workstation
+- DINOv2 transition scoring + DreamColour 3D LUT color grading + C2PA ES256 provenance signing
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/VideoRAG-Public)
 
 ---
 
 ### Construction Law RAG Chatbot
-> 건설 법규 9개 PDF 기반 AI 챗봇 · 삼성물산 AI Academy 교육 프로젝트 (팀 리더)
+> AI chatbot over 9 construction regulation PDFs · Samsung C&T AI Academy project · Team lead
 
 `Python` `FAISS` `BM25` `bge-reranker` `GPT-4o-mini` `Streamlit`
 
-- FAISS + BM25 하이브리드 검색 + bge-reranker 정밀도 향상
-- GPT-4o-mini로 질의 7가지 유형 분류 후 유형별 응답 전략 분기
-- 비전공자 팀원이 직접 구현할 수 있는 단계별 실습 ipynb 설계
+- FAISS + BM25 hybrid retrieval with bge-reranker for precision improvement
+- 7-type query classification via GPT-4o-mini with per-type response strategy branching
+- Designed step-by-step implementation notebooks for non-developer teammates
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/cntchatbot_pjt1)
 
 ---
 
 ### Metal Defect Synthesis
-> 제조업 결함 데이터 부족 문제 해결을 위한 이미지 합성 PoC
+> Image synthesis PoC to address manufacturing defect data scarcity
 
 `VQGAN` `MaskGIT` `PyTorch` `HuggingFace` `Gradio`
 
-- taming VQGAN + 직접 구현 MaskGIT(v1) → LlamaGen VQGAN + Halton-MaskGIT(v2) 아키텍처 전환
-  - 전환 이유: Halton-MaskGIT(ICLR 2025)은 LlamaGen VQGAN 전용 — Codebook 호환 문제로 taming과 조합 불가, 사전학습 모델이 있는 Halton-MaskGIT이 효율적이라고 판단
-- NEU-DET 등 3종 데이터셋 통합, 2,659장 → 8배 증강
-- VQGAN fine-tuning 정량 평가: Edge IoU +10.6%, PSNR +3.1%, SSIM +0.73%
-- MaskGIT 학습 Loss 6.77 (목표 ~4.0) → 수렴 실패 — 데이터 21K 대비 69M 파라미터 모델의 구조적 한계
-- Gradio inpainting 데모 배포 (HuggingFace Spaces)
+- v1 (taming VQGAN + custom MaskGIT) → v2 (LlamaGen VQGAN + Halton-MaskGIT): architecture migration driven by codebook incompatibility — Halton-MaskGIT (ICLR 2025) is built for LlamaGen VQGAN and cannot be combined with taming VQGAN; pretrained weights available only for LlamaGen made the switch the practical choice
+- Merged 3 datasets including NEU-DET; 2,659 images → 8× augmentation
+- VQGAN fine-tuning: Edge IoU +10.6%, PSNR +3.1%, SSIM +0.73%
+- MaskGIT training loss 6.77 (target ~4.0) → convergence failure — structural limitation of 69M-param model on 21K data
+- Deployed Gradio inpainting demo on HuggingFace Spaces
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/metal-defect-synthesis)
 [![Demo](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=flat-square)](https://huggingface.co/Yumi-Park996)
@@ -73,26 +72,26 @@ background:
 ---
 
 ### Term Search System
-> 건설 표준 용어 하이브리드 검색 엔진
+> Hybrid search engine for construction standard terminology
 
 `Python` `FAISS` `ColBERT` `OpenAI API`
 
-- OpenAI Embedding(의미 유사도 60%) + ColBERT 토큰별 최대 유사도(40%) 가중 결합
-- 구어체 질의 → 정확한 표준 용어 검색 달성
-- Circuit Breaker + Rate Limiting API 장애 대응 구조 설계
+- Weighted fusion: OpenAI Embedding semantic similarity (60%) + ColBERT token-level MaxSim (40%)
+- Achieved accurate standard term retrieval from colloquial queries
+- Circuit Breaker + Rate Limiting for API failure resilience
 
 [![Repo](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)](https://github.com/LimPark996/term-search-system-ver1)
 
 ---
 
 ### Ticketmon — Concert Ticketing Platform
-> 대규모 동시접속 티켓팅 시스템 · 부트캠프 파이널 프로젝트 (팀장)
+> High-concurrency ticketing system · Bootcamp final project · Team lead
 
 `Spring Boot` `Redis` `MySQL` `React` `Docker` `AWS`
 
-- AI 리뷰 요약 기능 설계 및 CRUD 구현 (Together AI → OpenAI 모델 전환 포함)
-- 좌석 파트 리팩토링 — 구역(section) 기반에서 등급(grade) 기반 좌석 관리로 전환
-- 공연장 규모(small/medium/large)에 따른 좌석 배치도 동적 조정 구현
+- Designed and implemented AI review summarization feature (Together AI → OpenAI migration)
+- Refactored seat management from section-based to grade-based architecture
+- Implemented dynamic seat layout rendering based on venue scale (small / medium / large)
 
 [![Backend](https://img.shields.io/badge/Backend-181717?style=flat-square&logo=github)](https://github.com/LimPark996/Ticketing-Website_BE)
 
@@ -100,10 +99,10 @@ background:
 
 ## Work Experience
 
-| 기간 | 역할 | 주요 내용 |
-|------|------|-----------|
-| 2025.08–11 | 삼성물산 AI Academy 강사 (엘리스) | 건설업 실무진 대상 생성형 AI 교육, RAG 챗봇 커리큘럼 설계 |
-| 2023.09–2024.12 | 웅진씽크빅 AI Labs 연구팀 | 국어 문항 난이도 예측 CatBoost 모델 (R²=0.57), ALP 시스템 역추적 분석 |
+| Period | Role | Key Work |
+|--------|------|----------|
+| 2025.08–11 | AI Instructor, Samsung C&T AI Academy (Elice) | Generative AI curriculum & RAG chatbot training for construction industry professionals |
+| 2023.09–2024.12 | Research Team, Woongjin ThinkBig AI Labs | CatBoost difficulty prediction model for exam items (R²=0.57), ALP system reverse analysis |
 
 ---
 
